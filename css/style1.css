@@ -1,0 +1,234 @@
+/* &display=swap */
+@import"null_style.css";
+@import url(https://fonts.googleapis.com/css?family=Rowdies:regular,700&display=swap);
+
+
+.wrapper {
+   min-height: 100%;
+   overflow: hidden;
+}
+
+/*== Basketball ==*/
+body {
+   font-family: "Rowdies";
+   font-size: 18px;
+   font-weight: normal;
+   line-height: 150%;
+   color: black;
+   background: url(../img/basketball/bg-pattern.jpeg);
+}
+
+.conteiner {
+   max-width: 890px;
+   margin: 0 auto;
+   padding: 0 15px 0 15px;
+   background-color: #F5DEB3;
+   box-shadow: 0px 0px 25px 10px #000000;
+}
+.header {
+   margin-bottom: 60px;
+   background: url(../img/basketball/sign.png) 85% 70%/350px 350px no-repeat, url(../img/basketball/jordan1/pngegg-4.png) 102% -20%/150px no-repeat;
+}
+.header-logo {
+   margin-bottom: 30px;
+}
+.header-logo-link {
+   display: block;
+   width: 100px;
+   margin: 0 auto;
+}
+.logo {
+   width: 100px;
+}
+.header-menu {
+   max-width: 450px;
+}
+.header-menu-item {
+   background: url(../img/basketball/ball.png)0 8px/17px no-repeat;
+   padding-left: 25px;
+   margin-bottom: 5px;
+   min-height: 28px;
+}
+.header-menu-link {
+   font-size: 20px;
+   text-shadow: 2px 2px 2px #CE5937;
+   border-bottom: 1px solid #CE5937;
+}
+
+/*== Main ==*/
+
+.intro-block {
+   margin-bottom: 50px;
+}
+.intro-title {
+   margin-bottom: 30px;
+   font-size: 40px;
+   font-weight: 700;
+   text-shadow: 2px 2px 2px #000000;
+}
+[class*="-img"] {
+   display: block;
+   max-width: 800px;
+   margin: 0 auto 30px;
+   border: 1px solid black;
+   border-radius: 10px;
+   box-shadow: 5px 5px 15px 5px rgba(0,0,0,0.48);
+}
+p { 
+   margin-bottom: 30px;
+}
+.about-jordan {
+   max-width: 500px;
+}
+.background-right {
+   background: url(../img/basketball/pngegg-2.png) 120% 50%/ 600px no-repeat;
+}
+.jordan {
+   text-decoration: underline;
+   color: red;
+}
+.air-jordan-history {
+   margin-bottom: 50px;
+   background: url(../img/basketball/jordan6/pngegg.png) 10% 22%/400px no-repeat, 
+   url(../img/basketball/jordan8/pngegg-1.png) 40% 50%/400px no-repeat, 
+   url(../img/basketball/jordan8/pngegg.png) 50% 0%/400px no-repeat;
+}
+h2 {
+   font-size: 35px;
+   font-weight: 700;
+   margin-bottom: 30px;
+}
+.about-history {
+   text-shadow: 2px 2px 0 #bcbcbc, 4px 4px 0 #9c9c9c;
+}
+.air-jordan-design {
+   margin-bottom: 50px;
+   background: url(../img/basketball/pngegg-1.png) 50%/600px no-repeat fixed;
+   box-shadow: inset 0px 0px 17px 4px #E3FFCE;
+}
+.about-design-link {
+   text-decoration: underline;
+   color: red;
+}
+.jordan-design-list {
+   margin-bottom: 30px;
+}
+.jordan-design-item {
+   margin-bottom: 5px;
+   background: url(../img/basketball/ball.png) 0 5px/25px no-repeat;
+   padding-left: 40px;
+   min-height: 25px;
+}
+.blue {
+   color: blue;
+}
+
+.jordan1 {
+   margin-bottom: 50px;
+   background: url(../img/basketball/jordan1/pngegg-1.png) 100% 100%/200px no-repeat;
+}
+p.years-released,
+p.colorurway,
+p.shoe-style {
+   margin-bottom: 10px;
+}
+
+.fw700 {
+   font-weight: 700;
+   font-size: 20px;
+   color: darkcyan;
+}
+.buy-btn,
+.top-btn {
+   display: inline-block;
+   background-color: black;
+   text-transform: uppercase;
+   font-size: 20px;
+   color: white;
+   padding: 3px 10px 3px 10px;
+   box-shadow: 0px 0px 12px 1px rgba(255,0,0,0.38);
+}
+.jordan2 {
+   margin-bottom: 50px;
+   background: url(../img/basketball/jordan2/pngegg.png) 100% 100%/200px no-repeat;
+}
+.jordan3 {
+   margin-bottom: 50px;
+   background: url(../img/basketball/jordan3/pngegg.png) 100% 100%/200px no-repeat;
+}
+.jordan4 {
+   margin-bottom: 50px;
+   background: url(../img/basketball/jordan4/pngegg.png) 100% 100%/200px no-repeat;
+}
+.jordan5 {
+   margin-bottom: 50px;
+   background: url(../img/basketball/jordan1/pngegg-3.png) 100% 100%/200px no-repeat;
+}
+.jordan6 {
+   margin-bottom: 50px;
+   background: url(../img/basketball/jordan6/pngegg-1.png) 100% 100%/200px no-repeat,
+   url(../img/basketball/jordan6/pngegg.png) 70% 100%/200px no-repeat;
+}
+.jordan7 {
+   margin-bottom: 50px;
+   background: url(../img/basketball/jordan7/pngfind.com-green-swoosh-png-3972462.png) 100% 100%/200px no-repeat;
+}
+.jordan8 {
+   margin-bottom: 50px;
+   background: url(../img/basketball/jordan8/pngegg-1.png) 100% 100%/200px no-repeat,
+   url(../img/basketball/jordan8/pngegg.png) 70% 100%/200px no-repeat;
+}
+.jordan9 {
+   margin-bottom: 50px;
+   background: url(../img/basketball/jordan1/pngegg-2.png) 100% 100%/200px no-repeat;
+}
+.jordan10 {
+   margin-bottom: 50px;
+}
+.block-figma {
+   max-width: 100%;
+   min-height: 800px;
+   text-align: center;
+   margin: 0 auto;
+   padding-top: 400px;
+   background: url(../img/basketball/jordan2/pngegg-2.png)50%/ 850px no-repeat;
+}
+.figma-hw-link {
+   display: inline-block;
+   background-color: #CE5937;
+   padding: 10px 20px;
+   text-transform: uppercase;
+}
+.footer {
+   min-height: 300px;
+   background: rgb(255,166,0);
+   background: linear-gradient(180deg, rgba(255,166,0,1) 0%, rgba(75,64,64,1) 100%);
+   box-shadow: 0px -2px 17px 5px rgba(0,0,0,0.57);
+}
+.footer-logo {
+   margin-bottom: 20px;
+}
+.ft-logo {
+   width: 100px;
+   padding: 20px 10px 0px 30px;
+}
+.footer-nav {
+   padding-left: 30px;
+   margin-bottom: 20px;
+}
+.footer-mune-item {
+   margin-bottom: 5px;
+}
+.footer-menu-link {
+   text-decoration: underline;
+   font-size: 20px;
+}
+.footer-info {
+   margin-bottom: 20px;
+}
+.info {
+   text-align: center;
+}
+.info-link {
+   color: red;
+}
